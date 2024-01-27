@@ -6,14 +6,16 @@
 }
 
 h1{
-    text-align: center;
+
+    
+    /* text-align: center;
     background-color: transparent;
     margin: 10 0 8px;
     font-size: 1.5rem;
 
     padding: 30px ;
 
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px); */
 }
 
 body{
