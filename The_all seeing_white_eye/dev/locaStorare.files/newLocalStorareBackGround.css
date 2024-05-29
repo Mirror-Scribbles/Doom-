@@ -2,10 +2,24 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(32, 32, 70);
-    color: rgb(124, 124, 134);
+    font-family: sans-serif;
 }
 
+/* html{
+    color-scheme: light dark;
+} */
+
+/* .body-tech{
+    background-color: rgb(7, 7, 43);
+    color: rgb(108, 108, 110);
+} */
+
+@media (prefers-color-scheme: dark){
+.body-tech{
+    background-color: rgb(8, 8, 36);
+    color: rgb(108, 108, 110);
+} ;
+};
 
 .container{
     margin-top: 50px;
@@ -35,11 +49,23 @@ outline: none;
 border: none;
 border-radius: 5px;
 background-color: aquamarine;
-transition: background-color  ease-in-out .5s;;
+transition: background-color  ease-in-out .3s;
 color: black;
+font-size: 1rem;
 }
 
 .Local-Storage:hover  {
-background-color: rgb(7, 7, 59);
-color: rgb(124, 124, 134);
+background-color: rgb(7, 7, 43) ;
+color:  aquamarine;
 }
+
+@media (prefers-color-scheme: light){
+
+    
+        .Local-Storage:hover  {
+            background-color: rgb(161, 214, 214) ;
+            color:  rgb(246, 250, 248);
+            }
+    
+    };
+    
