@@ -18,16 +18,11 @@
 .body-tech{
     background-color: rgb(8, 8, 36);
     color: rgb(108, 108, 110);
-} ;
+};
 };
 
-.container{
-    margin-top: 50px;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-
-
+.container h1{
+border: solid red 3px;
 }
 
 .div-btn{
@@ -54,18 +49,20 @@ color: black;
 font-size: 1rem;
 }
 
+.Local-Storage .clear{
+max-width: fit-content;
+}
+
 .Local-Storage:hover  {
 background-color: rgb(7, 7, 43) ;
 color:  aquamarine;
 }
 
 @media (prefers-color-scheme: light){
-
     
         .Local-Storage:hover  {
             background-color: rgb(161, 214, 214) ;
             color:  rgb(246, 250, 248);
             }
-    
     };
     
